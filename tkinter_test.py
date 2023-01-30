@@ -1,3 +1,3 @@
 import tkinter as tk
 
-window = tk.Tk()
+window = tk._test()
