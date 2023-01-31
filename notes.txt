@@ -1,0 +1,5 @@
+Plaato keg AuthTokens:
+Fat 1: 388b2e2690f64ffe9b9953e40bf51090
+Fat 2: f37a69de5b1d496686157742e35dd771
+Fat 3: 8f950b3a7b5d4df39b01cc777adb0f55
+
