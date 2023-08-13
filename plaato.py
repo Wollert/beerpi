@@ -106,7 +106,7 @@ def get_temperature(kegs):
         temperature = temperature/len(kegs)
     else:
         temperature = float(kegs.get_temperature())
-    return temperature
+    return "{:.3f}".format(temperature) 
 
 
 if __name__ == '__main__':
@@ -117,4 +117,9 @@ if __name__ == '__main__':
     print(fat1.abv)
     print(fat1.get_pouring())
 
-    print(get_temperature([fat1,fat2,fat3]))
+    fat = [fat1,fat2,fat3]
+    
+    for f in fat:
+        print(f.get_temperature())
+
+    print(get_temperature(fat))
