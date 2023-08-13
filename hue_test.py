@@ -15,16 +15,16 @@ print(type(lights))
 for light in lights:
     print("{}  {}  {}".format(light.id_, light.name, light.is_on))
 
-l = hue.get_light(id_=12)
+# l = hue.get_light(id_=12)
 
-hold_bri = l.bri
-# hold_bri = 180
+# hold_bri = l.bri
+# # hold_bri = 180
 
-l.off()
-time.sleep(3)
+# l.off()
+# time.sleep(3)
+# # l.set_brightness(hold_bri)
+# l.on()
 # l.set_brightness(hold_bri)
-l.on()
-l.set_brightness(hold_bri)
 
 
 # for i in range(25):
